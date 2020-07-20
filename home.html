@@ -8,10 +8,87 @@
     <link rel="stylesheet" type="text/css" href="./resources/css/style.css" />
     <link rel="stylesheet" type="text/css" href="./resources/css/queries.css" />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <link
       type="text/css"
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="resources/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="resources/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="resources/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="resources/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="resources/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="resources/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="resources/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="resources/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="resources/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="resources/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="resources/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="resources/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="resources/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="resources/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
 
     <title>LÉA Cosmetic</title>
   </head>
@@ -21,24 +98,27 @@
       <nav>
         <div class="row">
           <img src="resources/img/logo.jpeg" alt="LÉA Cosmetic" class="logo" />
-          <ul class="main-nav">
+          <ul class="main-nav js-main-nav">
             <li><a href="#">Shop</a></li>
             <li><a href="#">Shipping & Delivery</a></li>
             <li><a href="#">Facebook Community</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
+          <a class="nav-mobile-icon js-nav-icon"
+            ><i class="ion-navicon-round"></i
+          ></a>
         </div>
       </nav>
       <div class="header-text">
         <h1 class="header-tilte">
           WORLD LEADER IN BEATY. <br />WE'RE HERE FOR YOU AND YOUR BUSINESS
         </h1>
-        <a href="#" class="btn btn-full">Shopping now</a>
-        <a href="#" class="btn btn-show">Show me more</a>
+        <a href="#" class="btn btn-full js-scroll-to-shop">Shopping now</a>
+        <a href="#" class="btn btn-show js-scroll-to-timeline">Show me more</a>
       </div>
     </header>
 
-    <section class="section-feature">
+    <section class="section-feature js-section-feature">
       <div class="row">
         <h2 class="feature-tittle">Be natural, be beautiful, Be you</h2>
         <p class="feature-description">
@@ -48,7 +128,7 @@
         </p>
       </div>
 
-      <div class="row">
+      <div class="row js-wp-1">
         <div class="col span-1-of-4 box">
           <i class="ion-android-favorite icon-big"></i>
           <h3>UP TO 365 DAYS/YEAR</h3>
@@ -88,7 +168,7 @@
       </div>
     </section>
 
-    <section class="section-image">
+    <section class="section-image js-section-image">
       <ul class="image-showcase clearfix">
         <li>
           <figure class="image-content">
@@ -141,7 +221,7 @@
       </div>
       <div class="row">
         <div class="col span-1-of-2 step-box">
-          <img src="resources/img/9.jpg" class="img-work" />
+          <img src="resources/img/9.jpg" class="img-work js-wp-2" />
         </div>
         <div class="col span-1-of-2 step-box">
           <div class="works-step clearfix">
@@ -169,11 +249,11 @@
       </div>
     </section>
 
-    <section class="section-timeline">
+    <section class="section-timeline js-section-timeline">
       <div class="row">
         <h2 class="feature-tittle">LOVING IN TIMELINE</h2>
       </div>
-      <div class="row">
+      <div class="row js-wp-3">
         <div class="col span-1-of-4 box">
           <img src="resources/img/moon-cf.jpg" />
           <h3>THE FIRST DATE</h3>
@@ -300,5 +380,9 @@
         <p>Copyright &copy; 2020 Hung Dep Trai</p>
       </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+    <script src="resources/js/script.js"></script>
   </body>
 </html>
